@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Firefox Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[Phone number entered]]>
+    </line>
+    <line>
+      <![CDATA[Phone number entered]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email ID]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email ID]]>
+    </line>
+    <line>
+      <![CDATA[Entered first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered first name]]>
+    </line>
+    <line>
+      <![CDATA[Entered last name]]>
+    </line>
+    <line>
+      <![CDATA[Entered last name]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Login button successfully]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Login button successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-09T19:37:47 IST" name="RegistrationFlow" finished-at="2025-02-09T19:38:03 IST" duration-ms="16026">
+    <groups>
+    </groups>
+    <test started-at="2025-02-09T19:37:47 IST" name="Chrome Test" finished-at="2025-02-09T19:38:01 IST" duration-ms="14771">
+      <class name="com.testAppRun.RegisterAnAccount">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.testAppRun.RegisterAnAccount@3c130745]" started-at="2025-02-09T19:37:47 IST" name="setUp" finished-at="2025-02-09T19:37:51 IST" duration-ms="4290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register()[pri:0, instance:com.testAppRun.RegisterAnAccount@3c130745]" started-at="2025-02-09T19:37:51 IST" name="register" finished-at="2025-02-09T19:38:01 IST" duration-ms="10367" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Phone number entered]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email ID]]>
+            </line>
+            <line>
+              <![CDATA[Entered first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered last name]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testAppRun.RegisterAnAccount@3c130745]" started-at="2025-02-09T19:38:01 IST" name="tearDown" finished-at="2025-02-09T19:38:01 IST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testAppRun.RegisterAnAccount -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-02-09T19:37:47 IST" name="Firefox Test" finished-at="2025-02-09T19:38:03 IST" duration-ms="16026">
+      <class name="com.testAppRun.RegisterAnAccount">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.testAppRun.RegisterAnAccount@192d43ce]" started-at="2025-02-09T19:37:47 IST" name="setUp" finished-at="2025-02-09T19:37:52 IST" duration-ms="5163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Firefox Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="register()[pri:0, instance:com.testAppRun.RegisterAnAccount@192d43ce]" started-at="2025-02-09T19:37:52 IST" name="register" finished-at="2025-02-09T19:38:02 IST" duration-ms="10446" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Phone number entered]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email ID]]>
+            </line>
+            <line>
+              <![CDATA[Entered first name]]>
+            </line>
+            <line>
+              <![CDATA[Entered last name]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Login button successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testAppRun.RegisterAnAccount@192d43ce]" started-at="2025-02-09T19:38:02 IST" name="tearDown" finished-at="2025-02-09T19:38:03 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testAppRun.RegisterAnAccount -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- RegistrationFlow -->
+</testng-results>
